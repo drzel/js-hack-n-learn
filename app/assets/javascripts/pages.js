@@ -11,4 +11,7 @@ $(document).ready(function(){
   $('body').click(function(e){
     place(e);
   });
+  $('body').on("tap", function(e){
+    place(e);
+  });
 });
